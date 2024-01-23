@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Open+Sans:ital,wght@1,600&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: #73b1ed;
+  }
+
+  header {
+    background-color: rgba(75, 75, 75, 0.55);
+    height: 90px;
+    width: 100%;
+  }
+
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 40px;
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #73b1ed;
+  }
+
+  .about {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+ .container {
+    padding:50px 150px ;
+    margin-top: 20px;
+ }
+
+ .introduce {
+    display:flex;
+    align-items: center;
+    margin-left: 40px;
+ }
+
+ h1 {
+    font-size: 50px;
+    color:white;
+    letter-spacing: 2px;
+ }
+
+ .about h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 30px;
+ }
+
+ .text-box {
+    z-index: 20;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    min-width: 350px;
+    height: 270px;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    border-radius: 1px solid rgba(255, 255, 255, 0.1) ;
+    margin:50px 90px;
+    box-shadow: 10px 5px 5px  rgba(57, 57, 57, 0.73);
+ }
+
+ .text-box p {
+    margin:20px 20px;
+    line-height: 2;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.676);
+ }
+
+ p {
+  font-size: 18px; /* フォントサイズを変更 */
+  font-weight: bold; /* フォントの太さを変更 */
+  margin: 10px 0; /* マージンを追加 */
+}
+
+ .image img {
+    border-radius: 50%;
+    width: auto;
+    height: 350px;
+    object-fit: cover; 
+    border-color: black;
+    margin-left: 50px;
+  }
+  
+
+ .icon {
+    font-size: 50px;
+    margin-top: 30px;
+    padding-left: 50px;
+ }
+
+ .soccer-exp {
+  margin:50px 90px;
+ }
+
+ .soccer-exp h3 {
+  font-size: 25px;
+  color:white;
+ }
+
+ .ele-sch{
+  margin-top:50px;
+  border-bottom: thick double rgba(255, 255, 255, 0.54);
+  color:rgba(0, 0, 0, 0.676);
+ }
+
+ .juni-high-sch{
+  margin-top: 15px;
+  border-bottom: thick double rgba(255, 255, 255, 0.54);
+  color:rgba(0, 0, 0, 0.676)
+ }
+
+ .high-sch {
+  margin-top: 15px;
+  border-bottom: thick double rgba(255, 255, 255, 0.54);
+  color:rgba(0, 0, 0, 0.676)
+ }
+
+ .uni-sch {
+  margin-top: 15px;
+  border-bottom: thick double rgba(255, 255, 255, 0.54);
+  color:rgba(0, 0, 0, 0.676)
+ }
+
+ .experience {
+  margin-top: 20px;
+  color:rgba(0, 0, 0, 0.676);
+  display: flex;
+  padding-top: 50px;
+  
+ }
+
+ .text-inner {
+    z-index: 20;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    width: 90vh;
+    border-radius: 10px;
+    border-radius: 1px solid rgba(255, 255, 255, 0.1) ;
+    box-shadow: 10px 5px 5px  rgba(57, 57, 57, 0.73);
+ }
+
+ .text-inner p {
+  margin:5px 10px;
+ }
+
+ .image-soccer {
+  position: relative;
+}
+
+.image-soccer img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+}
+
+.image-soccer img:not(:first-child) {
+  opacity: 0;
+}
+
+.workout {
+  padding-top:50px;
+}
+
+.workout h3 {
+  font-size: 25px;
+  color:white;
+}
+
+ .record-work {
+  margin:50px 90px;
+  font-size: 20px;
+  display: inline-block;
+ }
+
+ .record-work ul li {
+  margin:30px 50px;
+ }
+
+ .qus-work{
+  margin:50px 90px;
+  font-size: 18px;
+  
+ }
+
+.qus-work p {
+  margin:20px 30px;
+  color:rgba(0, 0, 0, 0.676) ;
+}
+ 
+ .res-work {
+  margin:50px 90px;
+  font-size: 18px;
+  
+ }
+
+ .res-work p{
+  margin: 20px 30px;
+  color:rgba(0, 0, 0, 0.676) ;
+ }
+
+
+ .bfo-aft {
+  display: flex; /* 要素を横に並べる */
+  align-items: center; /* 垂直方向に中央揃え */
+  justify-content: center; /* 水平方向に中央揃え */
+  text-align: center; /* テキストを中央に配置 */
+}
+
+.image-bef,
+.image-aft {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  max-width: 100%; /* 画像が親要素を超えないようにする */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 画像に影を追加 */
+}
+
+.inner{
+margin:50px 90px;
+}
+
+
+.intro-metron {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.intro-metron p {
+  margin-top: 50px;
+}
+
+.intro-yolo {
+  z-index: 10;
+  background-color:rgba(255, 255, 255, 0.463);
+  border-radius: 20px;
+  padding: 20px 30px;
+  width: 80vh;
+  margin:50px auto;
+}
+
+.image-metro img{
+  position: relative;
+  display: flex;
+  border-radius: 100%;
+  width: auto;
+  height: 250px;
+  object-fit: cover; 
+  border-color: black;
+  margin-left: 50px;
+  margin-top: 9px;
+  box-shadow: 10px 5px 5px rgba(57, 57, 57, 0.73);
+}
+
+ul li {
+  list-style-type:none;
+  display: flex;
+  margin-top: 40px;
+  margin: 30px 30px;
+  font-size: 20px;
+}
+
+iframe {
+  border-radius: 50px;
+}
+
+.intro-inner{
+  z-index: 20;
+  padding:5px 5px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  width: 80vh;
+  border-radius: 10px;
+  border-radius: 1px solid rgba(255, 255, 255, 0.1) ;
+  margin-left: 30px;
+  box-shadow: 10px 5px 5px  rgba(57, 57, 57, 0.73);
+}
+
+.the-end {
+  width: 100%;
+  height: 600px;
+}
+
+.end-container {
+  display: flex;
+ margin-top: 100px;
+}
+
+.end-h2 {
+  padding-top: 50px;
+}
+
+.end-box {
+  z-index: 10;
+  margin: 40px 100px;
+  background-color:rgba(255, 255, 255, 0.463);
+  border-radius: 20px;
+  padding: 20px 30px;
+  width: 80vh;
+}
+
+
+
+.image-end img{
+  display: flex;
+  border-radius: 100%;
+  width: auto;
+  height: 250px;
+  object-fit: cover; 
+  border-color: black;
+  margin-left: 10px;
+  margin-top: 30px;
+  box-shadow: 20px 5px 5px rgba(57, 57, 57, 0.73);
+}
+

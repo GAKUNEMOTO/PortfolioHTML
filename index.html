@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Gaku Nemoto Website</title>
+</head>
+<body>
+    <!--navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">Gaku Nemoto</h2>
+            <img src="" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home page -->
+    <section class="Home">
+    <div class="container">
+    
+    <h2 class="main-title">Hi, There.</h2>
+
+    <h2 class="my-name">I'm Gaku Nemoto</h1>
+
+    <h2 class="my-work">I am Softwere Engineer</h2>
+
+    <div class="image">
+    <img src="/Users/gaku/prototype_Slang-game/portfolio/images/Gaku_background1.jpg"  alt="myphoto" >
+    </div>
+
+    <div class="media-icons">
+    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href=""><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+    <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+    </div>
+    </div>
+
+</section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var sr = new ScrollReveal({ 
+            reset: false,
+            distance: "60px",
+            duration: "2000"
+        });
+    
+        sr.reveal('.main-title', { 
+            delay: 200,
+            origin: "left",
+            interval: 200,
+        });
+    
+        sr.reveal('.my-name', { 
+            delay: 400,
+            origin: "left",
+            interval: 200,
+        });
+    
+        sr.reveal('.my-work', { 
+            delay: 500,
+            origin: "left",
+            interval: 200,
+        });
+    
+        sr.reveal('.image', { 
+            delay: 600,
+            origin: "bottom" 
+        });
+    
+        sr.reveal('.media-icons ion-icon', { 
+            delay: 500,
+            origin: "bottom", 
+            interval: 200,
+        });
+    });
+    
+</script>
+</body>
+</html>
